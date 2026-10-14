@@ -116,6 +116,89 @@ const API_SITES = {
         name: '黄色仓库',
         adult: true,
         detail: 'https://hsckzy.vip' // 添加detail URL以便特殊处理
+    },
+    // ===== 扩充源（2026-10 新增，全部经实测可用）=====
+    // --- 普通高质量源 ---
+    jipin: {
+        api: 'https://jipinvip1.com',
+        name: '新极品',
+    },
+    haohua: {
+        api: 'https://haohuazy.com',
+        name: '豪华资源',
+    },
+    wujin: {
+        api: 'https://api.wujinapi.me',
+        name: '无尽资源',
+    },
+    zuida: {
+        api: 'http://zuidazy.me',
+        name: '最大资源',
+    },
+    hongniu: {
+        api: 'http://hongniuzy2.com',
+        name: '红牛资源',
+    },
+    naixiang: {
+        api: 'https://naixxzy.com',
+        name: '奶香香',
+    },
+    huya: {
+        api: 'https://huyazy.net',
+        name: '虎牙资源',
+    },
+    subo: {
+        api: 'https://subocj.com',
+        name: '速播资源',
+    },
+    maoyan: {
+        api: 'https://api.maoyanapi.top',
+        name: '猫眼资源',
+    },
+    jinying: {
+        api: 'https://jyzyapi.com',
+        name: '金鹰资源',
+    },
+    liangzi: {
+        api: 'https://cj.lziapi.com',
+        name: '量子资源',
+    },
+    guangsu: {
+        api: 'https://api.guangsuapi.com',
+        name: '光速资源',
+    },
+    piaoling: {
+        api: 'https://p2100.net',
+        name: '飘零资源',
+    },
+    yutu: {
+        api: 'https://apiyutu.com',
+        name: '玉兔资源',
+    },
+    iqiyi: {
+        api: 'https://iqiyizyapi.com',
+        name: '爱奇艺资源',
+    },
+    // --- 成人源（新增，域名会频繁更换，失效从设置里取消勾选即可）---
+    madou: {
+        api: 'https://91md.me',
+        name: '麻豆资源',
+        adult: true
+    },
+    shileyuan: {
+        api: 'https://xxavs.com',
+        name: '湿乐园',
+        adult: true
+    },
+    danaizi: {
+        api: 'https://apidanaizi.com',
+        name: '大奶子资源',
+        adult: true
+    },
+    souav2: {
+        api: 'https://api.souavzyw.net',
+        name: 'souav新版',
+        adult: true
     }
     // 您可以按需添加更多源
 };
@@ -198,4 +281,4 @@ const CUSTOM_API_CONFIG = {
 };
 
 // 新增隐藏内置黄色采集站API的变量，默认为true
-const HIDE_BUILTIN_ADULT_APIS = true;
+const HIDE_BUILTIN_ADULT_APIS = false;
